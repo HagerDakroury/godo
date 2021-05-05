@@ -3,7 +3,7 @@ A simple CLI to strat and track a Pomodoro timer.
 
 Merely created for the convenience of staying trapped into the terminal.
 
-One command, one progress bar, one tasks at a time.
+One command, One progress bar, One task at a time.
 
 ### Usage 
 
