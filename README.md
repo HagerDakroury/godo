@@ -10,4 +10,6 @@ One command, one progress bar, one tasks at a time.
     godo start [duration] [title]
 
 duration: duration of the task in minutes, default 35 mins.
+
+
 title: task title, default task
