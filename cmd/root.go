@@ -6,15 +6,13 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var (
-	rootCmd = &cobra.Command{
-		Use:   "hi",
-		Short: "Hi hager!",
-	}
-)
+// rootCmd is the basic first command called with the program runs
+var rootCmd = &cobra.Command{
+	Use:   "godo",
+	Short: "Hi Hager, lots of things to do today! LET'S GO!",
+}
 
-func Init() {
-	rootCmd.AddCommand(displayCmd())
+func Execute() {
 
 	if err := rootCmd.Execute(); err != nil {
 		os.Exit(1)
